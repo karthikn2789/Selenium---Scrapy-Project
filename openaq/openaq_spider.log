@@ -1,0 +1,224 @@
+[I 200731 17:20:01 countries_spider:43] Total number of Countries in openaq.org: 93
+[I 200731 17:20:53 countries_spider:43] Total number of Countries in openaq.org: 93
+[D 200731 17:21:53 urls_spider:60] Last page reached for Afghanistan
+[I 200731 17:21:53 urls_spider:62] Afghanistan has 2 PM2.5 URLs
+[D 200731 17:22:02 urls_spider:60] Last page reached for Algeria
+[I 200731 17:22:02 urls_spider:62] Algeria has 1 PM2.5 URLs
+[D 200731 17:22:17 urls_spider:60] Last page reached for Andorra
+[I 200731 17:22:17 urls_spider:62] Andorra has 0 PM2.5 URLs
+[D 200731 17:22:26 urls_spider:60] Last page reached for Antigua and Barbuda
+[I 200731 17:22:26 urls_spider:62] Antigua and Barbuda has 1 PM2.5 URLs
+[D 200731 17:22:36 urls_spider:60] Last page reached for Argentina
+[I 200731 17:22:36 urls_spider:62] Argentina has 1 PM2.5 URLs
+[D 200731 17:22:51 urls_spider:60] Last page reached for Australia
+[I 200731 17:22:51 urls_spider:62] Australia has 143 PM2.5 URLs
+[D 200731 17:23:02 urls_spider:60] Last page reached for Austria
+[I 200731 17:23:02 urls_spider:62] Austria has 41 PM2.5 URLs
+[D 200731 17:23:12 urls_spider:60] Last page reached for Bahrain
+[I 200731 17:23:12 urls_spider:62] Bahrain has 1 PM2.5 URLs
+[D 200731 17:23:21 urls_spider:60] Last page reached for Bangladesh
+[I 200731 17:23:21 urls_spider:62] Bangladesh has 2 PM2.5 URLs
+[D 200731 17:23:33 urls_spider:60] Last page reached for Belgium
+[I 200731 17:23:33 urls_spider:62] Belgium has 69 PM2.5 URLs
+[D 200731 17:23:42 urls_spider:60] Last page reached for Bermuda
+[I 200731 17:23:42 urls_spider:62] Bermuda has 1 PM2.5 URLs
+[D 200731 17:23:52 urls_spider:60] Last page reached for Bosnia and Herzegovina
+[I 200731 17:23:52 urls_spider:62] Bosnia and Herzegovina has 7 PM2.5 URLs
+[D 200731 17:24:02 urls_spider:60] Last page reached for Brazil
+[I 200731 17:24:02 urls_spider:62] Brazil has 21 PM2.5 URLs
+[D 200731 17:24:11 urls_spider:60] Last page reached for Bulgaria
+[I 200731 17:24:11 urls_spider:62] Bulgaria has 3 PM2.5 URLs
+[D 200731 17:24:25 urls_spider:60] Last page reached for Canada
+[I 200731 17:24:25 urls_spider:62] Canada has 134 PM2.5 URLs
+[D 200731 17:24:39 urls_spider:60] Last page reached for Chile
+[I 200731 17:24:39 urls_spider:62] Chile has 97 PM2.5 URLs
+[D 200731 17:25:44 urls_spider:60] Last page reached for China
+[I 200731 17:25:44 urls_spider:62] China has 1561 PM2.5 URLs
+[D 200731 17:25:55 urls_spider:60] Last page reached for Colombia
+[I 200731 17:25:55 urls_spider:62] Colombia has 22 PM2.5 URLs
+[D 200731 17:26:04 urls_spider:60] Last page reached for Costa Rica
+[I 200731 17:26:04 urls_spider:62] Costa Rica has 1 PM2.5 URLs
+[D 200731 17:26:14 urls_spider:60] Last page reached for Croatia
+[I 200731 17:26:14 urls_spider:62] Croatia has 6 PM2.5 URLs
+[D 200731 17:26:23 urls_spider:60] Last page reached for Curaçao
+[I 200731 17:26:23 urls_spider:62] Curaçao has 1 PM2.5 URLs
+[D 200731 17:26:38 urls_spider:60] Last page reached for Cyprus
+[I 200731 17:26:38 urls_spider:62] Cyprus has 0 PM2.5 URLs
+[D 200731 17:26:50 urls_spider:60] Last page reached for Czech Republic
+[I 200731 17:26:50 urls_spider:62] Czech Republic has 56 PM2.5 URLs
+[D 200731 17:27:00 urls_spider:60] Last page reached for Côte d'Ivoire
+[I 200731 17:27:00 urls_spider:62] Côte d'Ivoire has 1 PM2.5 URLs
+[D 200731 17:27:14 urls_spider:60] Last page reached for Denmark
+[I 200731 17:27:14 urls_spider:62] Denmark has 0 PM2.5 URLs
+[D 200731 17:27:24 urls_spider:60] Last page reached for Estonia
+[I 200731 17:27:24 urls_spider:62] Estonia has 7 PM2.5 URLs
+[D 200731 17:27:33 urls_spider:60] Last page reached for Ethiopia
+[I 200731 17:27:33 urls_spider:62] Ethiopia has 2 PM2.5 URLs
+[D 200731 17:27:44 urls_spider:60] Last page reached for Finland
+[I 200731 17:27:44 urls_spider:62] Finland has 17 PM2.5 URLs
+[D 200731 17:28:03 urls_spider:60] Last page reached for France
+[I 200731 17:28:03 urls_spider:62] France has 188 PM2.5 URLs
+[D 200731 17:28:18 urls_spider:60] Last page reached for Germany
+[I 200731 17:28:18 urls_spider:62] Germany has 171 PM2.5 URLs
+[D 200731 17:28:28 urls_spider:60] Last page reached for Ghana
+[I 200731 17:28:28 urls_spider:62] Ghana has 12 PM2.5 URLs
+[D 200731 17:28:42 urls_spider:60] Last page reached for Gibraltar
+[I 200731 17:28:42 urls_spider:62] Gibraltar has 0 PM2.5 URLs
+[D 200731 17:28:52 urls_spider:60] Last page reached for Greece
+[I 200731 17:28:52 urls_spider:62] Greece has 11 PM2.5 URLs
+[D 200731 17:29:01 urls_spider:60] Last page reached for Guatemala
+[I 200731 17:29:01 urls_spider:62] Guatemala has 2 PM2.5 URLs
+[D 200731 17:29:11 urls_spider:60] Last page reached for Guinea
+[I 200731 17:29:11 urls_spider:62] Guinea has 1 PM2.5 URLs
+[D 200731 17:29:21 urls_spider:60] Last page reached for Hong Kong
+[I 200731 17:29:21 urls_spider:62] Hong Kong has 16 PM2.5 URLs
+[D 200731 17:29:30 urls_spider:60] Last page reached for Hungary
+[I 200731 17:29:30 urls_spider:62] Hungary has 9 PM2.5 URLs
+[D 200731 17:29:40 urls_spider:60] Last page reached for Iceland
+[I 200731 17:29:40 urls_spider:62] Iceland has 9 PM2.5 URLs
+[D 200731 17:30:00 urls_spider:60] Last page reached for India
+[I 200731 17:30:00 urls_spider:62] India has 263 PM2.5 URLs
+[D 200731 17:30:09 urls_spider:60] Last page reached for Indonesia
+[I 200731 17:30:09 urls_spider:62] Indonesia has 3 PM2.5 URLs
+[D 200731 17:30:19 urls_spider:60] Last page reached for Iraq
+[I 200731 17:30:19 urls_spider:62] Iraq has 1 PM2.5 URLs
+[D 200731 17:30:28 urls_spider:60] Last page reached for Ireland
+[I 200731 17:30:28 urls_spider:62] Ireland has 5 PM2.5 URLs
+[D 200731 17:30:38 urls_spider:60] Last page reached for Israel
+[I 200731 17:30:38 urls_spider:62] Israel has 1 PM2.5 URLs
+[D 200731 17:30:51 urls_spider:60] Last page reached for Italy
+[I 200731 17:30:51 urls_spider:62] Italy has 76 PM2.5 URLs
+[D 200731 17:31:00 urls_spider:60] Last page reached for Jordan
+[I 200731 17:31:00 urls_spider:62] Jordan has 2 PM2.5 URLs
+[D 200731 17:31:10 urls_spider:60] Last page reached for Kazakhstan
+[I 200731 17:31:10 urls_spider:62] Kazakhstan has 2 PM2.5 URLs
+[D 200731 17:31:19 urls_spider:60] Last page reached for Kenya
+[I 200731 17:31:19 urls_spider:62] Kenya has 2 PM2.5 URLs
+[D 200731 17:31:29 urls_spider:60] Last page reached for Kosovo
+[I 200731 17:31:29 urls_spider:62] Kosovo has 9 PM2.5 URLs
+[D 200731 17:31:38 urls_spider:60] Last page reached for Kuwait
+[I 200731 17:31:38 urls_spider:62] Kuwait has 1 PM2.5 URLs
+[D 200731 17:31:48 urls_spider:60] Last page reached for Kyrgyzstan
+[I 200731 17:31:48 urls_spider:62] Kyrgyzstan has 2 PM2.5 URLs
+[D 200731 17:31:57 urls_spider:60] Last page reached for Lao People's Democratic Republic
+[I 200731 17:31:57 urls_spider:62] Lao People's Democratic Republic has 1 PM2.5 URLs
+[D 200731 17:32:12 urls_spider:60] Last page reached for Latvia
+[I 200731 17:32:12 urls_spider:62] Latvia has 0 PM2.5 URLs
+[D 200731 17:32:21 urls_spider:60] Last page reached for Lithuania
+[I 200731 17:32:21 urls_spider:62] Lithuania has 6 PM2.5 URLs
+[D 200731 17:32:31 urls_spider:60] Last page reached for Luxembourg
+[I 200731 17:32:31 urls_spider:62] Luxembourg has 4 PM2.5 URLs
+[D 200731 17:32:40 urls_spider:60] Last page reached for Macedonia, the Former Yugoslav Republic of
+[I 200731 17:32:40 urls_spider:62] Macedonia, the Former Yugoslav Republic of has 3 PM2.5 URLs
+[D 200731 17:32:50 urls_spider:60] Last page reached for Madagascar
+[I 200731 17:32:50 urls_spider:62] Madagascar has 1 PM2.5 URLs
+[D 200731 17:32:59 urls_spider:60] Last page reached for Mali
+[I 200731 17:32:59 urls_spider:62] Mali has 1 PM2.5 URLs
+[D 200731 17:33:09 urls_spider:60] Last page reached for Malta
+[I 200731 17:33:09 urls_spider:62] Malta has 4 PM2.5 URLs
+[D 200731 17:33:20 urls_spider:60] Last page reached for Mexico
+[I 200731 17:33:20 urls_spider:62] Mexico has 32 PM2.5 URLs
+[D 200731 17:33:29 urls_spider:60] Last page reached for Mongolia
+[I 200731 17:33:29 urls_spider:62] Mongolia has 9 PM2.5 URLs
+[D 200731 17:33:39 urls_spider:60] Last page reached for Myanmar
+[I 200731 17:33:39 urls_spider:62] Myanmar has 1 PM2.5 URLs
+[D 200731 17:33:48 urls_spider:60] Last page reached for Nepal
+[I 200731 17:33:48 urls_spider:62] Nepal has 2 PM2.5 URLs
+[D 200731 17:34:00 urls_spider:60] Last page reached for Netherlands
+[I 200731 17:34:00 urls_spider:62] Netherlands has 53 PM2.5 URLs
+[D 200731 17:34:09 urls_spider:60] Last page reached for Nigeria
+[I 200731 17:34:09 urls_spider:62] Nigeria has 1 PM2.5 URLs
+[D 200731 17:34:21 urls_spider:60] Last page reached for Norway
+[I 200731 17:34:21 urls_spider:62] Norway has 55 PM2.5 URLs
+[D 200731 17:34:30 urls_spider:60] Last page reached for Pakistan
+[I 200731 17:34:30 urls_spider:62] Pakistan has 4 PM2.5 URLs
+[D 200731 17:34:40 urls_spider:60] Last page reached for Peru
+[I 200731 17:34:40 urls_spider:62] Peru has 11 PM2.5 URLs
+[D 200731 17:34:49 urls_spider:60] Last page reached for Philippines
+[I 200731 17:34:49 urls_spider:62] Philippines has 1 PM2.5 URLs
+[D 200731 17:35:03 urls_spider:60] Last page reached for Poland
+[I 200731 17:35:03 urls_spider:62] Poland has 104 PM2.5 URLs
+[D 200731 17:35:14 urls_spider:60] Last page reached for Portugal
+[I 200731 17:35:14 urls_spider:62] Portugal has 27 PM2.5 URLs
+[D 200731 17:35:28 urls_spider:60] Last page reached for Romania
+[I 200731 17:35:28 urls_spider:62] Romania has 0 PM2.5 URLs
+[D 200731 17:35:43 urls_spider:60] Last page reached for Russian Federation
+[I 200731 17:35:43 urls_spider:62] Russian Federation has 0 PM2.5 URLs
+[D 200731 17:35:52 urls_spider:60] Last page reached for Saudi Arabia
+[I 200731 17:35:52 urls_spider:62] Saudi Arabia has 3 PM2.5 URLs
+[D 200731 17:36:02 urls_spider:60] Last page reached for Serbia
+[I 200731 17:36:02 urls_spider:62] Serbia has 1 PM2.5 URLs
+[D 200731 17:36:11 urls_spider:60] Last page reached for Singapore
+[I 200731 17:36:11 urls_spider:62] Singapore has 1 PM2.5 URLs
+[D 200731 17:36:22 urls_spider:60] Last page reached for Slovakia
+[I 200731 17:36:22 urls_spider:62] Slovakia has 33 PM2.5 URLs
+[D 200731 17:36:36 urls_spider:60] Last page reached for Slovenia
+[I 200731 17:36:36 urls_spider:62] Slovenia has 0 PM2.5 URLs
+[D 200731 17:36:51 urls_spider:60] Last page reached for South Africa
+[I 200731 17:36:51 urls_spider:62] South Africa has 0 PM2.5 URLs
+[D 200731 17:37:06 urls_spider:60] Last page reached for Spain
+[I 200731 17:37:06 urls_spider:62] Spain has 146 PM2.5 URLs
+[D 200731 17:37:15 urls_spider:60] Last page reached for Sri Lanka
+[I 200731 17:37:15 urls_spider:62] Sri Lanka has 1 PM2.5 URLs
+[D 200731 17:37:25 urls_spider:60] Last page reached for Sweden
+[I 200731 17:37:25 urls_spider:62] Sweden has 16 PM2.5 URLs
+[D 200731 17:37:35 urls_spider:60] Last page reached for Switzerland
+[I 200731 17:37:35 urls_spider:62] Switzerland has 13 PM2.5 URLs
+[D 200731 17:37:48 urls_spider:60] Last page reached for Taiwan
+[I 200731 17:37:48 urls_spider:62] Taiwan has 77 PM2.5 URLs
+[D 200731 17:37:57 urls_spider:60] Last page reached for Tajikistan
+[I 200731 17:37:57 urls_spider:62] Tajikistan has 1 PM2.5 URLs
+[D 200731 17:38:12 urls_spider:60] Last page reached for Thailand
+[I 200731 17:38:12 urls_spider:62] Thailand has 0 PM2.5 URLs
+[D 200731 17:38:26 urls_spider:60] Last page reached for Turkey
+[I 200731 17:38:26 urls_spider:62] Turkey has 0 PM2.5 URLs
+[D 200731 17:38:36 urls_spider:60] Last page reached for Turkmenistan
+[I 200731 17:38:36 urls_spider:62] Turkmenistan has 1 PM2.5 URLs
+[D 200731 17:38:45 urls_spider:60] Last page reached for Uganda
+[I 200731 17:38:45 urls_spider:62] Uganda has 1 PM2.5 URLs
+[D 200731 17:38:55 urls_spider:60] Last page reached for United Arab Emirates
+[I 200731 17:38:55 urls_spider:62] United Arab Emirates has 3 PM2.5 URLs
+[D 200731 17:39:07 urls_spider:60] Last page reached for United Kingdom
+[I 200731 17:39:07 urls_spider:62] United Kingdom has 84 PM2.5 URLs
+[D 200731 17:40:59 urls_spider:60] Last page reached for United States
+[I 200731 17:40:59 urls_spider:62] United States has 1321 PM2.5 URLs
+[D 200731 17:41:09 urls_spider:60] Last page reached for Uzbekistan
+[I 200731 17:41:09 urls_spider:62] Uzbekistan has 1 PM2.5 URLs
+[D 200731 17:41:18 urls_spider:60] Last page reached for Viet Nam
+[I 200731 17:41:18 urls_spider:62] Viet Nam has 3 PM2.5 URLs
+[I 200731 17:41:18 urls_spider:64] Total PM2.5 URLs: 5010
+[E 200731 17:48:46 pm_data_spider:59] Algiers in N/A,Antigua and Barbuda does not have PM2.5
+[E 200731 17:48:48 pm_data_spider:59] SPARTAN - CITEDEF in Buenos Aires,Argentina does not have PM2.5
+[E 200731 17:49:01 pm_data_spider:59] Altona North 1 in Altona North 1,Australia does not have PM2.5
+[E 200731 17:49:11 pm_data_spider:59] Bright in Bright,Australia does not have PM2.5
+[E 200731 17:49:29 pm_data_spider:59] Emerald in Central Queensland,Australia does not have PM2.5
+[E 200731 17:49:46 pm_data_spider:59] Boat Creek in Gladstone,Australia does not have PM2.5
+[E 200731 17:49:51 pm_data_spider:59] Clinton in Gladstone,Australia does not have PM2.5
+[E 200731 17:50:02 pm_data_spider:59] Albion Park Sth in Illawarra,Australia does not have PM2.5
+[E 200731 17:50:04 pm_data_spider:59] Kembla Grange in Illawarra,Australia does not have PM2.5
+[E 200731 17:50:09 pm_data_spider:59] Lakes Entrance in Lakes Entrance,Australia does not have PM2.5
+[E 200731 17:50:14 pm_data_spider:59] Newcastle in Lower Hunter,Australia does not have PM2.5
+[E 200731 17:50:18 pm_data_spider:59] Mallacoota in Mallacoota,Australia does not have PM2.5
+[E 200731 17:50:20 pm_data_spider:59] Marlo in Marlo,Australia does not have PM2.5
+[E 200731 17:50:22 pm_data_spider:59] Alphington in Melbourne,Australia does not have PM2.5
+[E 200731 17:50:32 pm_data_spider:59] Coolaroo in Melbourne,Australia does not have PM2.5
+[E 200731 17:50:39 pm_data_spider:59] Footscray in Melbourne,Australia does not have PM2.5
+[E 200731 17:50:41 pm_data_spider:59] Macleod in Melbourne,Australia does not have PM2.5
+[E 200731 17:51:02 pm_data_spider:59] Nicholson in Nicholson,Australia does not have PM2.5
+[E 200731 17:51:14 pm_data_spider:59] Omeo in Omeo,Australia does not have PM2.5
+[E 200731 17:51:16 pm_data_spider:59] Orbost in Orbost,Australia does not have PM2.5
+[E 200731 17:51:20 pm_data_spider:59] Port Augusta in Port Augusta,Australia does not have PM2.5
+[E 200731 17:51:25 pm_data_spider:59] Sarsfield in Sarsfield,Australia does not have PM2.5
+[E 200731 17:51:33 pm_data_spider:59] Deception Bay in South East Queensland,Australia does not have PM2.5
+[E 200731 17:51:35 pm_data_spider:59] Lytton in South East Queensland,Australia does not have PM2.5
+[E 200731 17:51:54 pm_data_spider:59] Hopeland in South West Queensland,Australia does not have PM2.5
+[E 200731 17:51:56 pm_data_spider:59] Hopeland in South West Queensland,Australia does not have PM2.5
+[E 200731 17:52:14 pm_data_spider:59] Macquarie Park in Sydney East,Australia does not have PM2.5
+[E 200731 17:52:41 pm_data_spider:59] Campbelltown West in Sydney South-west,Australia does not have PM2.5
+[E 200731 17:52:43 pm_data_spider:59] Liverpool in Sydney South-west,Australia does not have PM2.5
+[E 200731 17:52:48 pm_data_spider:59] Bream Creek in Tasmania Region,Australia does not have PM2.5
+[E 200731 17:52:50 pm_data_spider:59] Campbell Town in Tasmania Region,Australia does not have PM2.5
+[E 200731 17:52:52 pm_data_spider:59] Cygnet in Tasmania Region,Australia does not have PM2.5
+[E 200731 17:52:55 pm_data_spider:59] Deloraine in Tasmania Region,Australia does not have PM2.5
+[E 200731 17:52:57 pm_data_spider:59] Derby in Tasmania Region,Australia does not have PM2.5
+[E 200731 17:53:00 pm_data_spider:59] Devonport in Tasmania Region,Australia does not have PM2.5
