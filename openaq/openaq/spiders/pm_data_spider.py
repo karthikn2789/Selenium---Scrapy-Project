@@ -5,6 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common import exceptions
 from logzero import logger, logfile
 import json
 import time
@@ -40,16 +41,17 @@ class PmDataSpiderSpider(scrapy.Spider):
         exception_count = 0
         no_pm = 0
         for i, url in enumerate(urls):
-            driver.get(url)
-            # driver.implicitly_wait(10)
-            wait = WebDriverWait(driver, 5)
-            wait.until(EC.presence_of_element_located((By.CLASS_NAME, "inpage__title")))
-            time.sleep(2)
-
-            # Hand-off between Selenium and Scrapy happens here
-            sel = Selector(text=driver.page_source)
 
             try:
+                driver.get(url)
+                # driver.implicitly_wait(10)
+                wait = WebDriverWait(driver, 5)
+                wait.until(EC.presence_of_element_located((By.CLASS_NAME, "inpage__title")))
+                time.sleep(2)
+
+                # Hand-off between Selenium and Scrapy happens here
+                sel = Selector(text=driver.page_source)
+
                 # Extract Location and City
                 location = sel.xpath("//h1[@class='inpage__title']/text()").get()
                 city_full = sel.xpath("//h1[@class='inpage__title']/small/text()").getall()
@@ -78,6 +80,9 @@ class PmDataSpiderSpider(scrapy.Spider):
                     no_pm += 1
             except Exception as e:
                 logger.error(f"Exception {e} has occured with URL: {url}")
+                exception_count += 1
+            except exceptions as f:
+                logger.error(f"Selenium Exception {f} has occured with URL: {url}")
                 exception_count += 1
 
             # Terminating and reinstantiating webdriver every 200 URL to reduce the load on RAM
