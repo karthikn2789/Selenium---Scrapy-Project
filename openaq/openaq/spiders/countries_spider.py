@@ -7,6 +7,7 @@ from logzero import logfile, logger
 
 
 class CountriesSpiderSpider(scrapy.Spider):
+
     # Initializing log file
     logfile("openaq_spider.log", maxBytes=1e6, backupCount=3)
     name = "countries_spider"
@@ -19,18 +20,24 @@ class CountriesSpiderSpider(scrapy.Spider):
 
     def parse_countries(self, response):
         # driver = webdriver.Chrome()  # To open a new browser window and navigate it
+
         # Use headless option to not open a new browser window
         options = webdriver.ChromeOptions()
         options.add_argument("headless")
         desired_capabilities = options.to_capabilities()
         driver = webdriver.Chrome(desired_capabilities=desired_capabilities)
+
         # Getting list of Countries
         driver.get("https://openaq.org/#/countries")
+
         # Implicit wait
         driver.implicitly_wait(10)
+
         # Explicit wait
         wait = WebDriverWait(driver, 5)
         wait.until(EC.presence_of_element_located((By.CLASS_NAME, "card__title")))
+
+        # Extracting country names
         countries = driver.find_elements_by_class_name("card__title")
         countries_count = 0
         # Using Scrapy's yield to store output instead of explicitly writing to a JSON file
@@ -39,5 +46,6 @@ class CountriesSpiderSpider(scrapy.Spider):
                 "country": country.text,
             }
             countries_count += 1
+
         driver.quit()
         logger.info(f"Total number of Countries in openaq.org: {countries_count}")

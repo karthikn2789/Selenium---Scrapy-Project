@@ -12,39 +12,40 @@ import time
 
 
 class PmDataSpiderSpider(scrapy.Spider):
+    # Initializing log file
     logfile("openaq_spider.log", maxBytes=1e6, backupCount=3)
     name = "pm_data_spider"
     allowed_domains = ["toscrape.com"]
 
+    # Using a dummy website to start scrapy request
     def start_requests(self):
         url = "http://quotes.toscrape.com"
         yield scrapy.Request(url=url, callback=self.parse_pm_data)
 
     def parse_pm_data(self, response):
-
         logger.info(f"Scraping started at {time.strftime('%H:%M:%S')}")
+
         # Use headless option to not open a new browser window
         options = webdriver.ChromeOptions()
         options.add_argument("headless")
         desired_capabilities = options.to_capabilities()
         driver = webdriver.Chrome(desired_capabilities=desired_capabilities)
+
+        # Load the countries list written by urls_spider
         with open("urls.json", "r") as f:
             temp_list = json.load(f)
-        urls = list(map(lambda x: x.get("url"), temp_list))
-        # urls = [
-        #     "https://openaq.org/#/location/Athabasca%20Valley",
-        #     "https://openaq.org/#/location/Beaverlodge",
-        #     "https://openaq.org/#/location/Bruderheim",
-        # ]
 
+        urls = list(map(lambda x: x.get("url"), temp_list))
         count = 0
         exception_count = 0
         no_pm = 0
+
         for i, url in enumerate(urls):
 
             try:
+                # Opening locations webpage
                 driver.get(url)
-                # driver.implicitly_wait(10)
+                # Explicit wait
                 wait = WebDriverWait(driver, 5)
                 wait.until(EC.presence_of_element_located((By.CLASS_NAME, "inpage__title")))
                 time.sleep(2)
@@ -86,10 +87,10 @@ class PmDataSpiderSpider(scrapy.Spider):
                 exception_count += 1
 
             # Terminating and reinstantiating webdriver every 200 URL to reduce the load on RAM
-            # if (i != 0) and (i % 200 == 0):
-            driver.quit()
-            driver = webdriver.Chrome(desired_capabilities=desired_capabilities)
-            # logger.info("Chromedriver restarted")
+            if (i != 0) and (i % 200 == 0):
+                driver.quit()
+                driver = webdriver.Chrome(desired_capabilities=desired_capabilities)
+                logger.info("Chromedriver restarted")
 
         logger.info(f"Scraping ended at {time.strftime('%H:%M:%S')}")
         logger.info(f"Scraped {count} PM2.5 readings.")
