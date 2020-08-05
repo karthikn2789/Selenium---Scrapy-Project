@@ -32,4 +32,4 @@ Geckodriver for Firefox can be installed with the following command.
 
 Commands to run example are provided in a README.md files inside the project `openaq`.
 
-A performance comparison between Scrapy and Selenium can be found under [performance_comparison]().
+A performance comparison between Scrapy and Selenium can be found under [performance_comparison](https://github.com/karthikn2789/Selenium---Scrapy-Project/tree/master/performance_comparison).
